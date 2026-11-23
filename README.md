@@ -1,4 +1,4 @@
-# PITANT File Icons
+# <img src="https://raw.githubusercontent.com/PITANT-Industries/pitant-file-icons/main/site/brand/pitant-favicon.svg" width="28" height="28" alt=""> PITANT File Icons
 
 File-format icons for attachment rows, file browsers, engineering handoffs, and design tools. The library includes 289 designs across 18 categories, from STEP, KiCad, and Gerber to telemetry, PDF, Office, media, and archives.
 
@@ -88,4 +88,4 @@ python3 -m http.server 8000 --directory _site
 
 Open `http://localhost:8000`. `npm run build` generates the package and sprites in `dist/`. See [contributing](CONTRIBUTING.md) for artwork and extension conventions, the [changelog](CHANGELOG.md) for release history, and the [release guide](docs/releasing.md) for how to build the downloads.
 
-PITANT File Icons is released under the [MIT License](LICENSE). The artwork includes lettering set in [Geist](https://github.com/vercel/geist-font) and converted to SVG paths.
+The [MIT License](LICENSE) covers the library code and file-format artwork. The PITANT name and logo identify the publisher. The artwork includes lettering set in [Geist](https://github.com/vercel/geist-font) and converted to SVG paths.

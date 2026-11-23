@@ -29,6 +29,7 @@ try {
     ...catalog.icons.map(({ path }) => cp(join(root, path), join(staged, path))),
     cp(manifestPath, join(staged, 'formats.json')),
     cp(join(root, 'LICENSE'), join(staged, 'LICENSE')),
+    cp(join(source, 'brand'), join(staged, 'brand'), { recursive: true }),
     cp(join(source, 'catalog.js'), join(staged, 'catalog.js')),
     cp(join(source, 'styles.css'), join(staged, 'styles.css')),
     writeFile(join(staged, 'index.html'), page),

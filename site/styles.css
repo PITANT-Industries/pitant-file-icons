@@ -29,7 +29,10 @@ button, select { cursor: pointer; }
 .site-header { border-bottom: 1px solid var(--rule); }
 .header-content, .footer-content { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .header-content { min-height: 4rem; }
-.wordmark { font-size: 1.05rem; font-weight: 850; letter-spacing: .16em; text-decoration: none; }
+.site-logo { display: inline-flex; flex: none; align-items: center; gap: 8px; padding-block: 1px; }
+.site-logo img { display: block; height: auto; }
+.site-logo-mark { width: 22.9332px; }
+.site-logo-wordmark { width: 77.1571px; }
 .site-header nav { display: flex; gap: clamp(.75rem, 2.75vw, 2rem); }
 .site-header nav a, .footer-content a { color: var(--muted); font-size: .875rem; text-decoration: none; }
 .site-header nav a:hover, .footer-content a:hover, .manifest-link:hover { color: var(--blue); text-decoration: underline; }
