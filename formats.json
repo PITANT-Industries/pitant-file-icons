@@ -1,0 +1,3903 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "cad",
+      "name": "Mechanical CAD",
+      "color": "#275FD0",
+      "description": "Parts, assemblies and neutral CAD exchange"
+    },
+    {
+      "id": "drawing",
+      "name": "Drawings & diagrams",
+      "color": "#315A8B",
+      "description": "2D CAD, plotting and diagrams"
+    },
+    {
+      "id": "mesh",
+      "name": "3D mesh & scenes",
+      "color": "#644BC6",
+      "description": "Additive manufacturing meshes and visualization assets"
+    },
+    {
+      "id": "eda",
+      "name": "Electronics design",
+      "color": "#0D775E",
+      "description": "PCB layouts, schematics and component libraries"
+    },
+    {
+      "id": "fabrication",
+      "name": "Fabrication & labeling",
+      "color": "#A3572C",
+      "description": "Board manufacturing, machine instructions and print labels"
+    },
+    {
+      "id": "automation",
+      "name": "Industrial automation",
+      "color": "#067471",
+      "description": "PLC projects, device descriptions and engineering profiles"
+    },
+    {
+      "id": "data",
+      "name": "Data & telemetry",
+      "color": "#177493",
+      "description": "Structured data, databases and recorder exports"
+    },
+    {
+      "id": "documents",
+      "name": "Documents",
+      "color": "#225ABA",
+      "description": "Reports, manuscripts, notes and fixed-layout files"
+    },
+    {
+      "id": "tables",
+      "name": "Spreadsheets",
+      "color": "#1F7D4B",
+      "description": "Tables, workbook exports and delimited data"
+    },
+    {
+      "id": "slides",
+      "name": "Presentations & projects",
+      "color": "#BB4D28",
+      "description": "Slides, project plans and schedules"
+    },
+    {
+      "id": "image",
+      "name": "Images & artwork",
+      "color": "#973F90",
+      "description": "Raster images, vector drawings and layered artwork"
+    },
+    {
+      "id": "video",
+      "name": "Video & captions",
+      "color": "#6D45C3",
+      "description": "Recordings, production media and captions"
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "color": "#A63665",
+      "description": "Recordings, compressed sound and music data"
+    },
+    {
+      "id": "archive",
+      "name": "Archives & disk images",
+      "color": "#FFB11F",
+      "description": "Compressed handoffs, backups and disk images"
+    },
+    {
+      "id": "code",
+      "name": "Source & configuration",
+      "color": "#4A59A1",
+      "description": "Code, build inputs and configuration files"
+    },
+    {
+      "id": "binary",
+      "name": "Firmware & software",
+      "color": "#38647B",
+      "description": "Firmware images, executables and install packages"
+    },
+    {
+      "id": "security",
+      "name": "Certificates & checksums",
+      "color": "#586F32",
+      "description": "Certificates, keys, signatures and integrity records"
+    },
+    {
+      "id": "office",
+      "name": "Mail, fonts & fallback",
+      "color": "#505F73",
+      "description": "Correspondence, calendars, typefaces and unclassified files"
+    }
+  ],
+  "icons": [
+    {
+      "id": "step",
+      "label": "STEP",
+      "name": "STEP model",
+      "category": "cad",
+      "extensions": [
+        "step",
+        "stp"
+      ],
+      "path": "icons/step.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "iges",
+      "label": "IGES",
+      "name": "IGES model",
+      "category": "cad",
+      "extensions": [
+        "iges",
+        "igs"
+      ],
+      "path": "icons/iges.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "brep",
+      "label": "BREP",
+      "name": "Boundary representation",
+      "category": "cad",
+      "extensions": [
+        "brep",
+        "brp"
+      ],
+      "path": "icons/brep.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "parasolid-text",
+      "label": "X_T",
+      "name": "Parasolid text model",
+      "category": "cad",
+      "extensions": [
+        "x_t",
+        "xmt_txt"
+      ],
+      "path": "icons/parasolid-text.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "parasolid-binary",
+      "label": "X_B",
+      "name": "Parasolid binary model",
+      "category": "cad",
+      "extensions": [
+        "x_b",
+        "xmt_bin"
+      ],
+      "path": "icons/parasolid-binary.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "sat",
+      "label": "SAT",
+      "name": "ACIS text model",
+      "category": "cad",
+      "extensions": [
+        "sat"
+      ],
+      "path": "icons/sat.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "sab",
+      "label": "SAB",
+      "name": "ACIS binary model",
+      "category": "cad",
+      "extensions": [
+        "sab"
+      ],
+      "path": "icons/sab.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "jt",
+      "label": "JT",
+      "name": "JT visualization model",
+      "category": "cad",
+      "extensions": [
+        "jt"
+      ],
+      "path": "icons/jt.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "3dxml",
+      "label": "3DXML",
+      "name": "Dassault Systèmes 3D XML",
+      "category": "cad",
+      "extensions": [
+        "3dxml"
+      ],
+      "path": "icons/3dxml.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "fcstd",
+      "label": "FCSTD",
+      "name": "FreeCAD document",
+      "category": "cad",
+      "extensions": [
+        "fcstd"
+      ],
+      "path": "icons/fcstd.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "sldprt",
+      "label": "SLDPRT",
+      "name": "SOLIDWORKS part",
+      "category": "cad",
+      "extensions": [
+        "sldprt"
+      ],
+      "path": "icons/sldprt.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "sldasm",
+      "label": "SLDASM",
+      "name": "SOLIDWORKS assembly",
+      "category": "cad",
+      "extensions": [
+        "sldasm"
+      ],
+      "path": "icons/sldasm.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "ipt",
+      "label": "IPT",
+      "name": "Inventor part",
+      "category": "cad",
+      "extensions": [
+        "ipt"
+      ],
+      "path": "icons/ipt.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "iam",
+      "label": "IAM",
+      "name": "Inventor assembly",
+      "category": "cad",
+      "extensions": [
+        "iam"
+      ],
+      "path": "icons/iam.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "f3d",
+      "label": "F3D",
+      "name": "Fusion design",
+      "category": "cad",
+      "extensions": [
+        "f3d"
+      ],
+      "path": "icons/f3d.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "f3z",
+      "label": "F3Z",
+      "name": "Fusion distributed design archive",
+      "category": "cad",
+      "extensions": [
+        "f3z"
+      ],
+      "path": "icons/f3z.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "xpr",
+      "label": "XPR",
+      "name": "Creo part instance accelerator",
+      "category": "cad",
+      "extensions": [
+        "xpr"
+      ],
+      "path": "icons/xpr.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "creo-part",
+      "label": "PRT",
+      "name": "Native CAD part",
+      "category": "cad",
+      "extensions": [
+        "prt"
+      ],
+      "path": "icons/creo-part.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "creo-assembly",
+      "label": "ASM",
+      "name": "Native CAD assembly",
+      "category": "cad",
+      "extensions": [
+        "asm"
+      ],
+      "path": "icons/creo-assembly.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "catpart",
+      "label": "CATPRT",
+      "name": "CATIA part",
+      "category": "cad",
+      "extensions": [
+        "catpart"
+      ],
+      "path": "icons/catpart.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "catproduct",
+      "label": "CATASM",
+      "name": "CATIA product assembly",
+      "category": "cad",
+      "extensions": [
+        "catproduct"
+      ],
+      "path": "icons/catproduct.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "ifc",
+      "label": "IFC",
+      "name": "Industry Foundation Classes",
+      "category": "cad",
+      "extensions": [
+        "ifc"
+      ],
+      "path": "icons/ifc.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "rvt",
+      "label": "RVT",
+      "name": "Revit project",
+      "category": "cad",
+      "extensions": [
+        "rvt"
+      ],
+      "path": "icons/rvt.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "skp",
+      "label": "SKP",
+      "name": "SketchUp model",
+      "category": "cad",
+      "extensions": [
+        "skp"
+      ],
+      "path": "icons/skp.svg",
+      "color": "#275FD0"
+    },
+    {
+      "id": "dxf",
+      "label": "DXF",
+      "name": "Drawing Exchange Format",
+      "category": "drawing",
+      "extensions": [
+        "dxf"
+      ],
+      "path": "icons/dxf.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "dwg",
+      "label": "DWG",
+      "name": "DWG drawing",
+      "category": "drawing",
+      "extensions": [
+        "dwg"
+      ],
+      "path": "icons/dwg.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "slddrw",
+      "label": "SLDDRW",
+      "name": "SOLIDWORKS drawing",
+      "category": "drawing",
+      "extensions": [
+        "slddrw"
+      ],
+      "path": "icons/slddrw.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "idw",
+      "label": "IDW",
+      "name": "Inventor drawing",
+      "category": "drawing",
+      "extensions": [
+        "idw"
+      ],
+      "path": "icons/idw.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "dft",
+      "label": "DFT",
+      "name": "Solid Edge draft",
+      "category": "drawing",
+      "extensions": [
+        "dft"
+      ],
+      "path": "icons/dft.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "plt",
+      "label": "PLT",
+      "name": "Plotter file",
+      "category": "drawing",
+      "extensions": [
+        "plt",
+        "hpgl",
+        "gl2"
+      ],
+      "path": "icons/plt.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "vsdx",
+      "label": "VSDX",
+      "name": "Visio drawing",
+      "category": "drawing",
+      "extensions": [
+        "vsdx",
+        "vsd"
+      ],
+      "path": "icons/vsdx.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "vsdm",
+      "label": "VSDM",
+      "name": "Visio macro-enabled drawing",
+      "category": "drawing",
+      "extensions": [
+        "vsdm"
+      ],
+      "path": "icons/vsdm.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "drawio",
+      "label": "DRAWIO",
+      "name": "diagrams.net diagram",
+      "category": "drawing",
+      "extensions": [
+        "drawio"
+      ],
+      "path": "icons/drawio.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "bpmn",
+      "label": "BPMN",
+      "name": "Business Process Model and Notation",
+      "category": "drawing",
+      "extensions": [
+        "bpmn"
+      ],
+      "path": "icons/bpmn.svg",
+      "color": "#315A8B"
+    },
+    {
+      "id": "stl",
+      "label": "STL",
+      "name": "Stereolithography mesh",
+      "category": "mesh",
+      "extensions": [
+        "stl"
+      ],
+      "path": "icons/stl.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "3mf",
+      "label": "3MF",
+      "name": "3D Manufacturing Format",
+      "category": "mesh",
+      "extensions": [
+        "3mf"
+      ],
+      "path": "icons/3mf.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "obj",
+      "label": "OBJ",
+      "name": "Wavefront mesh",
+      "category": "mesh",
+      "extensions": [
+        "obj"
+      ],
+      "path": "icons/obj.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "mtl",
+      "label": "MTL",
+      "name": "Wavefront material library",
+      "category": "mesh",
+      "extensions": [
+        "mtl"
+      ],
+      "path": "icons/mtl.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "ply",
+      "label": "PLY",
+      "name": "Polygon file",
+      "category": "mesh",
+      "extensions": [
+        "ply"
+      ],
+      "path": "icons/ply.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "off",
+      "label": "OFF",
+      "name": "Object File Format geometry",
+      "category": "mesh",
+      "extensions": [
+        "off"
+      ],
+      "path": "icons/off.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "amf",
+      "label": "AMF",
+      "name": "Additive Manufacturing File Format",
+      "category": "mesh",
+      "extensions": [
+        "amf"
+      ],
+      "path": "icons/amf.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "gltf",
+      "label": "GLTF",
+      "name": "glTF scene",
+      "category": "mesh",
+      "extensions": [
+        "gltf"
+      ],
+      "path": "icons/gltf.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "glb",
+      "label": "GLB",
+      "name": "Binary glTF scene",
+      "category": "mesh",
+      "extensions": [
+        "glb"
+      ],
+      "path": "icons/glb.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "fbx",
+      "label": "FBX",
+      "name": "FBX scene",
+      "category": "mesh",
+      "extensions": [
+        "fbx"
+      ],
+      "path": "icons/fbx.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "blend",
+      "label": "BLEND",
+      "name": "Blender project",
+      "category": "mesh",
+      "extensions": [
+        "blend"
+      ],
+      "path": "icons/blend.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "dae",
+      "label": "DAE",
+      "name": "COLLADA scene",
+      "category": "mesh",
+      "extensions": [
+        "dae"
+      ],
+      "path": "icons/dae.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "usd",
+      "label": "USD",
+      "name": "Universal Scene Description",
+      "category": "mesh",
+      "extensions": [
+        "usd",
+        "usda",
+        "usdc"
+      ],
+      "path": "icons/usd.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "usdz",
+      "label": "USDZ",
+      "name": "Packaged USD scene",
+      "category": "mesh",
+      "extensions": [
+        "usdz"
+      ],
+      "path": "icons/usdz.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "wrl",
+      "label": "WRL",
+      "name": "VRML scene",
+      "category": "mesh",
+      "extensions": [
+        "wrl",
+        "vrml"
+      ],
+      "path": "icons/wrl.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "x3d",
+      "label": "X3D",
+      "name": "X3D scene",
+      "category": "mesh",
+      "extensions": [
+        "x3d",
+        "x3db",
+        "x3dv"
+      ],
+      "path": "icons/x3d.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "e57",
+      "label": "E57",
+      "name": "3D imaging data",
+      "category": "mesh",
+      "extensions": [
+        "e57"
+      ],
+      "path": "icons/e57.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "las",
+      "label": "LAS",
+      "name": "LiDAR point cloud",
+      "category": "mesh",
+      "extensions": [
+        "las"
+      ],
+      "path": "icons/las.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "laz",
+      "label": "LAZ",
+      "name": "Compressed LiDAR point cloud",
+      "category": "mesh",
+      "extensions": [
+        "laz"
+      ],
+      "path": "icons/laz.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "pcd",
+      "label": "PCD",
+      "name": "Point Cloud Data",
+      "category": "mesh",
+      "extensions": [
+        "pcd"
+      ],
+      "path": "icons/pcd.svg",
+      "color": "#644BC6"
+    },
+    {
+      "id": "kicad-pcb",
+      "label": "K-PCB",
+      "name": "KiCad PCB layout",
+      "category": "eda",
+      "extensions": [
+        "kicad_pcb"
+      ],
+      "path": "icons/kicad-pcb.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "kicad-sch",
+      "label": "K-SCH",
+      "name": "KiCad schematic",
+      "category": "eda",
+      "extensions": [
+        "kicad_sch"
+      ],
+      "path": "icons/kicad-sch.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "kicad-pro",
+      "label": "K-PRO",
+      "name": "KiCad project",
+      "category": "eda",
+      "extensions": [
+        "kicad_pro"
+      ],
+      "path": "icons/kicad-pro.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "kicad-sym",
+      "label": "K-SYM",
+      "name": "KiCad symbol library",
+      "category": "eda",
+      "extensions": [
+        "kicad_sym"
+      ],
+      "path": "icons/kicad-sym.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "kicad-mod",
+      "label": "K-MOD",
+      "name": "KiCad footprint",
+      "category": "eda",
+      "extensions": [
+        "kicad_mod"
+      ],
+      "path": "icons/kicad-mod.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "pcbdoc",
+      "label": "PCBDOC",
+      "name": "Altium PCB document",
+      "category": "eda",
+      "extensions": [
+        "pcbdoc"
+      ],
+      "path": "icons/pcbdoc.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "schdoc",
+      "label": "SCHDOC",
+      "name": "Altium schematic",
+      "category": "eda",
+      "extensions": [
+        "schdoc"
+      ],
+      "path": "icons/schdoc.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "prjpcb",
+      "label": "PRJPCB",
+      "name": "Altium PCB project",
+      "category": "eda",
+      "extensions": [
+        "prjpcb"
+      ],
+      "path": "icons/prjpcb.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "pcblib",
+      "label": "PCBLIB",
+      "name": "Altium footprint library",
+      "category": "eda",
+      "extensions": [
+        "pcblib"
+      ],
+      "path": "icons/pcblib.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "schlib",
+      "label": "SCHLIB",
+      "name": "Altium schematic library",
+      "category": "eda",
+      "extensions": [
+        "schlib"
+      ],
+      "path": "icons/schlib.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "brd",
+      "label": "BRD",
+      "name": "PCB board design",
+      "category": "eda",
+      "extensions": [
+        "brd"
+      ],
+      "path": "icons/brd.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "sch",
+      "label": "SCH",
+      "name": "Circuit schematic",
+      "category": "eda",
+      "extensions": [
+        "sch"
+      ],
+      "path": "icons/sch.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "elk",
+      "label": "ELK",
+      "name": "EPLAN project",
+      "category": "eda",
+      "extensions": [
+        "elk"
+      ],
+      "path": "icons/elk.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "elp",
+      "label": "ELP",
+      "name": "Packed EPLAN project",
+      "category": "eda",
+      "extensions": [
+        "elp"
+      ],
+      "path": "icons/elp.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "zw1",
+      "label": "ZW1",
+      "name": "EPLAN project backup",
+      "category": "eda",
+      "extensions": [
+        "zw1"
+      ],
+      "path": "icons/zw1.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "spef",
+      "label": "SPEF",
+      "name": "Standard Parasitic Exchange Format",
+      "category": "eda",
+      "extensions": [
+        "spef"
+      ],
+      "path": "icons/spef.svg",
+      "color": "#0D775E"
+    },
+    {
+      "id": "gerber",
+      "label": "GBR",
+      "name": "Gerber fabrication layer",
+      "category": "fabrication",
+      "extensions": [
+        "gbr",
+        "ger",
+        "gtl",
+        "gbl",
+        "gto",
+        "gbo",
+        "gts",
+        "gbs",
+        "gko",
+        "gml",
+        "gm1",
+        "g1",
+        "g2"
+      ],
+      "path": "icons/gerber.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "excellon",
+      "label": "DRL",
+      "name": "Excellon and XNC drill data",
+      "category": "fabrication",
+      "extensions": [
+        "drl",
+        "xnc",
+        "ncd"
+      ],
+      "path": "icons/excellon.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "odb-plus-plus",
+      "label": "ODB++",
+      "name": "ODB++ production package",
+      "category": "fabrication",
+      "extensions": [],
+      "path": "icons/odb-plus-plus.svg",
+      "color": "#A3572C",
+      "role": true
+    },
+    {
+      "id": "ipc-2581",
+      "label": "IPC",
+      "name": "IPC-2581 manufacturing data",
+      "category": "fabrication",
+      "extensions": [],
+      "path": "icons/ipc-2581.svg",
+      "color": "#A3572C",
+      "role": true
+    },
+    {
+      "id": "ipc-d-356",
+      "label": "D-356",
+      "name": "IPC-D-356 netlist",
+      "category": "fabrication",
+      "extensions": [
+        "d356",
+        "ipc"
+      ],
+      "path": "icons/ipc-d-356.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "bom",
+      "label": "BOM",
+      "name": "Bill of materials",
+      "category": "fabrication",
+      "extensions": [
+        "bom"
+      ],
+      "path": "icons/bom.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "pos",
+      "label": "POS",
+      "name": "Component placement data",
+      "category": "fabrication",
+      "extensions": [
+        "pos"
+      ],
+      "path": "icons/pos.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "xy",
+      "label": "XY",
+      "name": "XY placement coordinates",
+      "category": "fabrication",
+      "extensions": [
+        "xy"
+      ],
+      "path": "icons/xy.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "gcode",
+      "label": "GCODE",
+      "name": "G-code toolpath",
+      "category": "fabrication",
+      "extensions": [
+        "gcode",
+        "gco",
+        "nc",
+        "tap"
+      ],
+      "path": "icons/gcode.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "zpl",
+      "label": "ZPL",
+      "name": "Zebra Programming Language label",
+      "category": "fabrication",
+      "extensions": [
+        "zpl"
+      ],
+      "path": "icons/zpl.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "epl",
+      "label": "EPL",
+      "name": "Eltron Programming Language label",
+      "category": "fabrication",
+      "extensions": [
+        "epl"
+      ],
+      "path": "icons/epl.svg",
+      "color": "#A3572C"
+    },
+    {
+      "id": "tia-project",
+      "label": "TIA",
+      "name": "Siemens TIA Portal project",
+      "category": "automation",
+      "extensions": [
+        "ap13",
+        "ap14",
+        "ap15",
+        "ap15_1",
+        "ap16",
+        "ap17",
+        "ap18",
+        "ap19",
+        "ap20",
+        "ap21"
+      ],
+      "path": "icons/tia-project.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "tia-archive",
+      "label": "ZAP",
+      "name": "Siemens TIA Portal project archive",
+      "category": "automation",
+      "extensions": [
+        "zap13",
+        "zap14",
+        "zap15",
+        "zap15_1",
+        "zap16",
+        "zap17",
+        "zap18",
+        "zap19",
+        "zap20",
+        "zap21"
+      ],
+      "path": "icons/tia-archive.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "tsproj",
+      "label": "TSPROJ",
+      "name": "TwinCAT solution project",
+      "category": "automation",
+      "extensions": [
+        "tsproj"
+      ],
+      "path": "icons/tsproj.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "plcproj",
+      "label": "PLCPROJ",
+      "name": "TwinCAT PLC project",
+      "category": "automation",
+      "extensions": [
+        "plcproj"
+      ],
+      "path": "icons/plcproj.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "tcpou",
+      "label": "TCPOU",
+      "name": "TwinCAT program organization unit",
+      "category": "automation",
+      "extensions": [
+        "tcpou"
+      ],
+      "path": "icons/tcpou.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "tmc",
+      "label": "TMC",
+      "name": "TwinCAT module description",
+      "category": "automation",
+      "extensions": [
+        "tmc"
+      ],
+      "path": "icons/tmc.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "st",
+      "label": "ST",
+      "name": "IEC 61131-3 Structured Text",
+      "category": "automation",
+      "extensions": [
+        "st"
+      ],
+      "path": "icons/st.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "plcopen",
+      "label": "PLCXML",
+      "name": "PLCopen XML exchange",
+      "category": "automation",
+      "extensions": [],
+      "path": "icons/plcopen.svg",
+      "color": "#067471",
+      "role": true
+    },
+    {
+      "id": "eds",
+      "label": "EDS",
+      "name": "Electronic Data Sheet",
+      "category": "automation",
+      "extensions": [
+        "eds"
+      ],
+      "path": "icons/eds.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "gsd",
+      "label": "GSD",
+      "name": "PROFIBUS device description",
+      "category": "automation",
+      "extensions": [
+        "gsd"
+      ],
+      "path": "icons/gsd.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "gsdml",
+      "label": "GSDML",
+      "name": "PROFINET device description (XML)",
+      "category": "automation",
+      "extensions": [],
+      "path": "icons/gsdml.svg",
+      "color": "#067471",
+      "role": true
+    },
+    {
+      "id": "gsdx",
+      "label": "GSDX",
+      "name": "PROFINET signed device description package",
+      "category": "automation",
+      "extensions": [
+        "gsdx"
+      ],
+      "path": "icons/gsdx.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "esi",
+      "label": "ESI",
+      "name": "EtherCAT Slave Information",
+      "category": "automation",
+      "extensions": [],
+      "path": "icons/esi.svg",
+      "color": "#067471",
+      "role": true
+    },
+    {
+      "id": "ua-nodeset",
+      "label": "UA",
+      "name": "OPC UA NodeSet",
+      "category": "automation",
+      "extensions": [
+        "nodeset.xml",
+        "nodeset2.xml"
+      ],
+      "path": "icons/ua-nodeset.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "aml",
+      "label": "AML",
+      "name": "AutomationML engineering data",
+      "category": "automation",
+      "extensions": [
+        "aml",
+        "amlx"
+      ],
+      "path": "icons/aml.svg",
+      "color": "#067471"
+    },
+    {
+      "id": "json",
+      "label": "JSON",
+      "name": "JSON data",
+      "category": "data",
+      "extensions": [
+        "json"
+      ],
+      "path": "icons/json.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "jsonl",
+      "label": "JSONL",
+      "name": "Line-delimited JSON",
+      "category": "data",
+      "extensions": [
+        "jsonl",
+        "ndjson"
+      ],
+      "path": "icons/jsonl.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "xml",
+      "label": "XML",
+      "name": "XML document",
+      "category": "data",
+      "extensions": [
+        "xml"
+      ],
+      "path": "icons/xml.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "xsd",
+      "label": "XSD",
+      "name": "XML Schema definition",
+      "category": "data",
+      "extensions": [
+        "xsd"
+      ],
+      "path": "icons/xsd.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "yaml",
+      "label": "YAML",
+      "name": "YAML data",
+      "category": "data",
+      "extensions": [
+        "yaml",
+        "yml"
+      ],
+      "path": "icons/yaml.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "sql",
+      "label": "SQL",
+      "name": "SQL script",
+      "category": "data",
+      "extensions": [
+        "sql"
+      ],
+      "path": "icons/sql.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "sqlite",
+      "label": "SQLITE",
+      "name": "SQLite database",
+      "category": "data",
+      "extensions": [
+        "sqlite",
+        "sqlite3",
+        "db3",
+        "s3db"
+      ],
+      "path": "icons/sqlite.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "db",
+      "label": "DB",
+      "name": "Database file",
+      "category": "data",
+      "extensions": [
+        "db"
+      ],
+      "path": "icons/db.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "mdb",
+      "label": "MDB",
+      "name": "Legacy Microsoft Access database",
+      "category": "data",
+      "extensions": [
+        "mdb"
+      ],
+      "path": "icons/mdb.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "accdb",
+      "label": "ACCDB",
+      "name": "Microsoft Access database",
+      "category": "data",
+      "extensions": [
+        "accdb"
+      ],
+      "path": "icons/accdb.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "sql-server-mdf",
+      "label": "MDF",
+      "name": "SQL Server primary database file",
+      "category": "data",
+      "extensions": [
+        "mdf"
+      ],
+      "path": "icons/sql-server-mdf.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "hdf5",
+      "label": "HDF5",
+      "name": "Hierarchical Data Format",
+      "category": "data",
+      "extensions": [
+        "h5",
+        "hdf5",
+        "he5"
+      ],
+      "path": "icons/hdf5.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "parquet",
+      "label": "PARQ",
+      "name": "Apache Parquet dataset",
+      "category": "data",
+      "extensions": [
+        "parquet"
+      ],
+      "path": "icons/parquet.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "arrow",
+      "label": "ARROW",
+      "name": "Apache Arrow IPC dataset",
+      "category": "data",
+      "extensions": [
+        "arrow",
+        "feather"
+      ],
+      "path": "icons/arrow.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "avro",
+      "label": "AVRO",
+      "name": "Apache Avro data",
+      "category": "data",
+      "extensions": [
+        "avro"
+      ],
+      "path": "icons/avro.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "netcdf",
+      "label": "NCDF",
+      "name": "Network Common Data Form",
+      "category": "data",
+      "extensions": [
+        "nc",
+        "nc4",
+        "cdf",
+        "netcdf"
+      ],
+      "path": "icons/netcdf.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "mat",
+      "label": "MAT",
+      "name": "MATLAB data",
+      "category": "data",
+      "extensions": [
+        "mat"
+      ],
+      "path": "icons/mat.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "npy",
+      "label": "NPY",
+      "name": "NumPy array",
+      "category": "data",
+      "extensions": [
+        "npy"
+      ],
+      "path": "icons/npy.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "npz",
+      "label": "NPZ",
+      "name": "NumPy array archive",
+      "category": "data",
+      "extensions": [
+        "npz"
+      ],
+      "path": "icons/npz.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "mdf",
+      "label": "MDF",
+      "name": "ASAM MDF measurement data",
+      "category": "data",
+      "extensions": [
+        "mdf"
+      ],
+      "path": "icons/mdf.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "mf4",
+      "label": "MF4",
+      "name": "ASAM MDF version 4 measurement data",
+      "category": "data",
+      "extensions": [
+        "mf4"
+      ],
+      "path": "icons/mf4.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "tdms",
+      "label": "TDMS",
+      "name": "NI measurement data",
+      "category": "data",
+      "extensions": [
+        "tdms"
+      ],
+      "path": "icons/tdms.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "wfm",
+      "label": "WFM",
+      "name": "Waveform data",
+      "category": "data",
+      "extensions": [
+        "wfm",
+        "isf"
+      ],
+      "path": "icons/wfm.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "vcd",
+      "label": "VCD",
+      "name": "Value Change Dump",
+      "category": "data",
+      "extensions": [
+        "vcd"
+      ],
+      "path": "icons/vcd.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "trc",
+      "label": "TRC",
+      "name": "Trace data",
+      "category": "data",
+      "extensions": [
+        "trc"
+      ],
+      "path": "icons/trc.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "blf",
+      "label": "BLF",
+      "name": "Vector Binary Logging Format",
+      "category": "data",
+      "extensions": [
+        "blf"
+      ],
+      "path": "icons/blf.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "pcap",
+      "label": "PCAP",
+      "name": "Network packet capture",
+      "category": "data",
+      "extensions": [
+        "pcap",
+        "cap"
+      ],
+      "path": "icons/pcap.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "pcapng",
+      "label": "PCAPNG",
+      "name": "PCAP Next Generation capture",
+      "category": "data",
+      "extensions": [
+        "pcapng"
+      ],
+      "path": "icons/pcapng.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "log",
+      "label": "LOG",
+      "name": "Log file",
+      "category": "data",
+      "extensions": [
+        "log"
+      ],
+      "path": "icons/log.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "geojson",
+      "label": "GEOJSON",
+      "name": "GeoJSON features",
+      "category": "data",
+      "extensions": [
+        "geojson"
+      ],
+      "path": "icons/geojson.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "kml",
+      "label": "KML",
+      "name": "Keyhole Markup Language",
+      "category": "data",
+      "extensions": [
+        "kml"
+      ],
+      "path": "icons/kml.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "kmz",
+      "label": "KMZ",
+      "name": "Compressed KML",
+      "category": "data",
+      "extensions": [
+        "kmz"
+      ],
+      "path": "icons/kmz.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "shp",
+      "label": "SHP",
+      "name": "Shapefile geometry",
+      "category": "data",
+      "extensions": [
+        "shp"
+      ],
+      "path": "icons/shp.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "gpkg",
+      "label": "GPKG",
+      "name": "OGC GeoPackage",
+      "category": "data",
+      "extensions": [
+        "gpkg"
+      ],
+      "path": "icons/gpkg.svg",
+      "color": "#177493"
+    },
+    {
+      "id": "pdf",
+      "label": "PDF",
+      "name": "Portable Document Format",
+      "category": "documents",
+      "extensions": [
+        "pdf"
+      ],
+      "path": "icons/pdf.svg",
+      "color": "#E5252A"
+    },
+    {
+      "id": "pdf-a",
+      "label": "PDF/A",
+      "name": "Archival PDF",
+      "category": "documents",
+      "extensions": [],
+      "path": "icons/pdf-a.svg",
+      "color": "#E5252A",
+      "role": true
+    },
+    {
+      "id": "docx",
+      "label": "DOCX",
+      "name": "Word document",
+      "category": "documents",
+      "extensions": [
+        "docx"
+      ],
+      "path": "icons/docx.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "doc",
+      "label": "DOC",
+      "name": "Legacy Word document",
+      "category": "documents",
+      "extensions": [
+        "doc"
+      ],
+      "path": "icons/doc.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "docm",
+      "label": "DOCM",
+      "name": "Macro-enabled Word document",
+      "category": "documents",
+      "extensions": [
+        "docm"
+      ],
+      "path": "icons/docm.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "odt",
+      "label": "ODT",
+      "name": "OpenDocument text",
+      "category": "documents",
+      "extensions": [
+        "odt"
+      ],
+      "path": "icons/odt.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "rtf",
+      "label": "RTF",
+      "name": "Rich Text Format",
+      "category": "documents",
+      "extensions": [
+        "rtf"
+      ],
+      "path": "icons/rtf.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "txt",
+      "label": "TXT",
+      "name": "Plain text",
+      "category": "documents",
+      "extensions": [
+        "txt",
+        "text",
+        "asc"
+      ],
+      "path": "icons/txt.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "md",
+      "label": "MD",
+      "name": "Markdown document",
+      "category": "documents",
+      "extensions": [
+        "md",
+        "markdown",
+        "mdown"
+      ],
+      "path": "icons/md.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "rst",
+      "label": "RST",
+      "name": "reStructuredText document",
+      "category": "documents",
+      "extensions": [
+        "rst"
+      ],
+      "path": "icons/rst.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "tex",
+      "label": "TEX",
+      "name": "TeX source",
+      "category": "documents",
+      "extensions": [
+        "tex",
+        "ltx"
+      ],
+      "path": "icons/tex.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "pages",
+      "label": "PAGES",
+      "name": "Apple Pages document",
+      "category": "documents",
+      "extensions": [
+        "pages"
+      ],
+      "path": "icons/pages.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "epub",
+      "label": "EPUB",
+      "name": "EPUB publication",
+      "category": "documents",
+      "extensions": [
+        "epub"
+      ],
+      "path": "icons/epub.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "xps",
+      "label": "XPS",
+      "name": "XML Paper Specification",
+      "category": "documents",
+      "extensions": [
+        "xps",
+        "oxps"
+      ],
+      "path": "icons/xps.svg",
+      "color": "#225ABA"
+    },
+    {
+      "id": "csv",
+      "label": "CSV",
+      "name": "Comma-separated values",
+      "category": "tables",
+      "extensions": [
+        "csv"
+      ],
+      "path": "icons/csv.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "tsv",
+      "label": "TSV",
+      "name": "Tab-separated values",
+      "category": "tables",
+      "extensions": [
+        "tsv",
+        "tab"
+      ],
+      "path": "icons/tsv.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "xlsx",
+      "label": "XLSX",
+      "name": "Excel workbook",
+      "category": "tables",
+      "extensions": [
+        "xlsx"
+      ],
+      "path": "icons/xlsx.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "xls",
+      "label": "XLS",
+      "name": "Legacy Excel workbook",
+      "category": "tables",
+      "extensions": [
+        "xls"
+      ],
+      "path": "icons/xls.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "xlsm",
+      "label": "XLSM",
+      "name": "Macro-enabled Excel workbook",
+      "category": "tables",
+      "extensions": [
+        "xlsm"
+      ],
+      "path": "icons/xlsm.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "xlsb",
+      "label": "XLSB",
+      "name": "Excel binary workbook",
+      "category": "tables",
+      "extensions": [
+        "xlsb"
+      ],
+      "path": "icons/xlsb.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "ods",
+      "label": "ODS",
+      "name": "OpenDocument spreadsheet",
+      "category": "tables",
+      "extensions": [
+        "ods"
+      ],
+      "path": "icons/ods.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "numbers",
+      "label": "NUM",
+      "name": "Apple Numbers spreadsheet",
+      "category": "tables",
+      "extensions": [
+        "numbers"
+      ],
+      "path": "icons/numbers.svg",
+      "color": "#1F7D4B"
+    },
+    {
+      "id": "pptx",
+      "label": "PPTX",
+      "name": "PowerPoint presentation",
+      "category": "slides",
+      "extensions": [
+        "pptx"
+      ],
+      "path": "icons/pptx.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "ppt",
+      "label": "PPT",
+      "name": "Legacy PowerPoint presentation",
+      "category": "slides",
+      "extensions": [
+        "ppt"
+      ],
+      "path": "icons/ppt.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "pptm",
+      "label": "PPTM",
+      "name": "Macro-enabled PowerPoint presentation",
+      "category": "slides",
+      "extensions": [
+        "pptm"
+      ],
+      "path": "icons/pptm.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "odp",
+      "label": "ODP",
+      "name": "OpenDocument presentation",
+      "category": "slides",
+      "extensions": [
+        "odp"
+      ],
+      "path": "icons/odp.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "keynote",
+      "label": "KEY",
+      "name": "Keynote presentation",
+      "category": "slides",
+      "extensions": [
+        "key"
+      ],
+      "path": "icons/keynote.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "mpp",
+      "label": "MPP",
+      "name": "Microsoft Project plan",
+      "category": "slides",
+      "extensions": [
+        "mpp"
+      ],
+      "path": "icons/mpp.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "xer",
+      "label": "XER",
+      "name": "Primavera P6 exchange file",
+      "category": "slides",
+      "extensions": [
+        "xer"
+      ],
+      "path": "icons/xer.svg",
+      "color": "#BB4D28"
+    },
+    {
+      "id": "png",
+      "label": "PNG",
+      "name": "Portable Network Graphics",
+      "category": "image",
+      "extensions": [
+        "png"
+      ],
+      "path": "icons/png.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "jpeg",
+      "label": "JPG",
+      "name": "JPEG image",
+      "category": "image",
+      "extensions": [
+        "jpg",
+        "jpeg",
+        "jpe",
+        "jfif"
+      ],
+      "path": "icons/jpeg.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "gif",
+      "label": "GIF",
+      "name": "Graphics Interchange Format",
+      "category": "image",
+      "extensions": [
+        "gif"
+      ],
+      "path": "icons/gif.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "webp",
+      "label": "WEBP",
+      "name": "WebP image",
+      "category": "image",
+      "extensions": [
+        "webp"
+      ],
+      "path": "icons/webp.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "avif",
+      "label": "AVIF",
+      "name": "AV1 Image File Format",
+      "category": "image",
+      "extensions": [
+        "avif"
+      ],
+      "path": "icons/avif.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "heic",
+      "label": "HEIC",
+      "name": "High Efficiency Image File Format",
+      "category": "image",
+      "extensions": [
+        "heic",
+        "heif"
+      ],
+      "path": "icons/heic.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "tiff",
+      "label": "TIFF",
+      "name": "Tagged Image File Format",
+      "category": "image",
+      "extensions": [
+        "tif",
+        "tiff"
+      ],
+      "path": "icons/tiff.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "bmp",
+      "label": "BMP",
+      "name": "Bitmap image",
+      "category": "image",
+      "extensions": [
+        "bmp",
+        "dib"
+      ],
+      "path": "icons/bmp.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "ico",
+      "label": "ICO",
+      "name": "Icon image",
+      "category": "image",
+      "extensions": [
+        "ico"
+      ],
+      "path": "icons/ico.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "svg",
+      "label": "SVG",
+      "name": "Scalable Vector Graphics",
+      "category": "image",
+      "extensions": [
+        "svg",
+        "svgz"
+      ],
+      "path": "icons/svg.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "emf",
+      "label": "EMF",
+      "name": "Windows Enhanced Metafile",
+      "category": "image",
+      "extensions": [
+        "emf"
+      ],
+      "path": "icons/emf.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "wmf",
+      "label": "WMF",
+      "name": "Windows Metafile",
+      "category": "image",
+      "extensions": [
+        "wmf"
+      ],
+      "path": "icons/wmf.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "eps",
+      "label": "EPS",
+      "name": "Encapsulated PostScript",
+      "category": "image",
+      "extensions": [
+        "eps"
+      ],
+      "path": "icons/eps.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "ai",
+      "label": "AI",
+      "name": "Illustrator artwork",
+      "category": "image",
+      "extensions": [
+        "ai"
+      ],
+      "path": "icons/ai.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "psd",
+      "label": "PSD",
+      "name": "Photoshop document",
+      "category": "image",
+      "extensions": [
+        "psd",
+        "psb"
+      ],
+      "path": "icons/psd.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "afp",
+      "label": "AFPHOTO",
+      "name": "Affinity Photo document",
+      "category": "image",
+      "extensions": [
+        "afphoto"
+      ],
+      "path": "icons/afp.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "afd",
+      "label": "AFDES",
+      "name": "Affinity Designer document",
+      "category": "image",
+      "extensions": [
+        "afdesign"
+      ],
+      "path": "icons/afd.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "indd",
+      "label": "INDD",
+      "name": "InDesign document",
+      "category": "image",
+      "extensions": [
+        "indd",
+        "idml"
+      ],
+      "path": "icons/indd.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "xcf",
+      "label": "XCF",
+      "name": "GIMP project",
+      "category": "image",
+      "extensions": [
+        "xcf"
+      ],
+      "path": "icons/xcf.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "dng",
+      "label": "DNG",
+      "name": "Digital Negative image",
+      "category": "image",
+      "extensions": [
+        "dng"
+      ],
+      "path": "icons/dng.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "camera-raw",
+      "label": "RAW",
+      "name": "Camera raw image",
+      "category": "image",
+      "extensions": [
+        "raw",
+        "cr2",
+        "cr3",
+        "nef",
+        "arw",
+        "raf",
+        "rw2",
+        "orf"
+      ],
+      "path": "icons/camera-raw.svg",
+      "color": "#973F90"
+    },
+    {
+      "id": "mp4",
+      "label": "MP4",
+      "name": "MPEG-4 video",
+      "category": "video",
+      "extensions": [
+        "mp4"
+      ],
+      "path": "icons/mp4.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "mov",
+      "label": "MOV",
+      "name": "QuickTime movie",
+      "category": "video",
+      "extensions": [
+        "mov",
+        "qt"
+      ],
+      "path": "icons/mov.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "webm",
+      "label": "WEBM",
+      "name": "WebM video",
+      "category": "video",
+      "extensions": [
+        "webm"
+      ],
+      "path": "icons/webm.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "mkv",
+      "label": "MKV",
+      "name": "Matroska video",
+      "category": "video",
+      "extensions": [
+        "mkv"
+      ],
+      "path": "icons/mkv.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "avi",
+      "label": "AVI",
+      "name": "Audio Video Interleave",
+      "category": "video",
+      "extensions": [
+        "avi"
+      ],
+      "path": "icons/avi.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "m4v",
+      "label": "M4V",
+      "name": "M4V video",
+      "category": "video",
+      "extensions": [
+        "m4v"
+      ],
+      "path": "icons/m4v.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "mpeg",
+      "label": "MPEG",
+      "name": "MPEG video",
+      "category": "video",
+      "extensions": [
+        "mpg",
+        "mpeg",
+        "mpe",
+        "m1v",
+        "m2v"
+      ],
+      "path": "icons/mpeg.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "mpeg-ts",
+      "label": "TS",
+      "name": "MPEG transport stream",
+      "category": "video",
+      "extensions": [
+        "m2t",
+        "ts"
+      ],
+      "path": "icons/mpeg-ts.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "avchd",
+      "label": "M2TS",
+      "name": "AVCHD transport stream",
+      "category": "video",
+      "extensions": [
+        "m2ts",
+        "mts"
+      ],
+      "path": "icons/avchd.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "wmv",
+      "label": "WMV",
+      "name": "Windows Media Video",
+      "category": "video",
+      "extensions": [
+        "wmv"
+      ],
+      "path": "icons/wmv.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "mxf",
+      "label": "MXF",
+      "name": "Material Exchange Format",
+      "category": "video",
+      "extensions": [
+        "mxf"
+      ],
+      "path": "icons/mxf.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "flv",
+      "label": "FLV",
+      "name": "Flash Video",
+      "category": "video",
+      "extensions": [
+        "flv"
+      ],
+      "path": "icons/flv.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "srt",
+      "label": "SRT",
+      "name": "SubRip subtitles",
+      "category": "video",
+      "extensions": [
+        "srt"
+      ],
+      "path": "icons/srt.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "vtt",
+      "label": "VTT",
+      "name": "WebVTT captions",
+      "category": "video",
+      "extensions": [
+        "vtt"
+      ],
+      "path": "icons/vtt.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "ass",
+      "label": "ASS",
+      "name": "Advanced SubStation Alpha subtitles",
+      "category": "video",
+      "extensions": [
+        "ass",
+        "ssa"
+      ],
+      "path": "icons/ass.svg",
+      "color": "#6D45C3"
+    },
+    {
+      "id": "mp3",
+      "label": "MP3",
+      "name": "MPEG Layer III audio",
+      "category": "audio",
+      "extensions": [
+        "mp3"
+      ],
+      "path": "icons/mp3.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "wav",
+      "label": "WAV",
+      "name": "Waveform audio",
+      "category": "audio",
+      "extensions": [
+        "wav",
+        "wave"
+      ],
+      "path": "icons/wav.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "flac",
+      "label": "FLAC",
+      "name": "FLAC audio",
+      "category": "audio",
+      "extensions": [
+        "flac"
+      ],
+      "path": "icons/flac.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "aac",
+      "label": "AAC",
+      "name": "Advanced Audio Coding",
+      "category": "audio",
+      "extensions": [
+        "aac"
+      ],
+      "path": "icons/aac.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "m4a",
+      "label": "M4A",
+      "name": "MPEG-4 audio",
+      "category": "audio",
+      "extensions": [
+        "m4a",
+        "m4b"
+      ],
+      "path": "icons/m4a.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "ogg",
+      "label": "OGG",
+      "name": "Ogg audio",
+      "category": "audio",
+      "extensions": [
+        "ogg",
+        "oga"
+      ],
+      "path": "icons/ogg.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "opus",
+      "label": "OPUS",
+      "name": "Opus audio",
+      "category": "audio",
+      "extensions": [
+        "opus"
+      ],
+      "path": "icons/opus.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "aiff",
+      "label": "AIFF",
+      "name": "Audio Interchange File Format",
+      "category": "audio",
+      "extensions": [
+        "aif",
+        "aiff",
+        "aifc"
+      ],
+      "path": "icons/aiff.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "wma",
+      "label": "WMA",
+      "name": "Windows Media Audio",
+      "category": "audio",
+      "extensions": [
+        "wma"
+      ],
+      "path": "icons/wma.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "mid",
+      "label": "MIDI",
+      "name": "MIDI sequence",
+      "category": "audio",
+      "extensions": [
+        "mid",
+        "midi"
+      ],
+      "path": "icons/mid.svg",
+      "color": "#A63665"
+    },
+    {
+      "id": "zip",
+      "label": "ZIP",
+      "name": "ZIP archive",
+      "category": "archive",
+      "extensions": [
+        "zip"
+      ],
+      "path": "icons/zip.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "7z",
+      "label": "7Z",
+      "name": "7-Zip archive",
+      "category": "archive",
+      "extensions": [
+        "7z"
+      ],
+      "path": "icons/7z.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "rar",
+      "label": "RAR",
+      "name": "RAR archive",
+      "category": "archive",
+      "extensions": [
+        "rar"
+      ],
+      "path": "icons/rar.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "tar",
+      "label": "TAR",
+      "name": "TAR archive",
+      "category": "archive",
+      "extensions": [
+        "tar"
+      ],
+      "path": "icons/tar.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "tgz",
+      "label": "TGZ",
+      "name": "Gzip-compressed TAR",
+      "category": "archive",
+      "extensions": [
+        "tar.gz",
+        "tgz"
+      ],
+      "path": "icons/tgz.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "tbz2",
+      "label": "TBZ2",
+      "name": "Bzip2-compressed TAR",
+      "category": "archive",
+      "extensions": [
+        "tar.bz2",
+        "tbz2",
+        "tbz"
+      ],
+      "path": "icons/tbz2.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "txz",
+      "label": "TXZ",
+      "name": "XZ-compressed TAR",
+      "category": "archive",
+      "extensions": [
+        "tar.xz",
+        "txz"
+      ],
+      "path": "icons/txz.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "tzst",
+      "label": "TZST",
+      "name": "Zstandard-compressed TAR",
+      "category": "archive",
+      "extensions": [
+        "tar.zst",
+        "tzst"
+      ],
+      "path": "icons/tzst.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "gz",
+      "label": "GZ",
+      "name": "Gzip stream",
+      "category": "archive",
+      "extensions": [
+        "gz"
+      ],
+      "path": "icons/gz.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "bz2",
+      "label": "BZ2",
+      "name": "Bzip2 stream",
+      "category": "archive",
+      "extensions": [
+        "bz2"
+      ],
+      "path": "icons/bz2.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "xz",
+      "label": "XZ",
+      "name": "XZ stream",
+      "category": "archive",
+      "extensions": [
+        "xz"
+      ],
+      "path": "icons/xz.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "zst",
+      "label": "ZST",
+      "name": "Zstandard stream",
+      "category": "archive",
+      "extensions": [
+        "zst"
+      ],
+      "path": "icons/zst.svg",
+      "color": "#FFB11F"
+    },
+    {
+      "id": "iso",
+      "label": "ISO",
+      "name": "ISO disk image",
+      "category": "archive",
+      "extensions": [
+        "iso"
+      ],
+      "path": "icons/iso.svg",
+      "color": "#008BF5"
+    },
+    {
+      "id": "img",
+      "label": "IMG",
+      "name": "Raw disk image",
+      "category": "archive",
+      "extensions": [
+        "img"
+      ],
+      "path": "icons/img.svg",
+      "color": "#008BF5"
+    },
+    {
+      "id": "dmg",
+      "label": "DMG",
+      "name": "Apple disk image",
+      "category": "archive",
+      "extensions": [
+        "dmg"
+      ],
+      "path": "icons/dmg.svg",
+      "color": "#008BF5"
+    },
+    {
+      "id": "vhd",
+      "label": "VHD",
+      "name": "Virtual hard disk",
+      "category": "archive",
+      "extensions": [
+        "vhd",
+        "vhdx"
+      ],
+      "path": "icons/vhd.svg",
+      "color": "#008BF5"
+    },
+    {
+      "id": "vmdk",
+      "label": "VMDK",
+      "name": "VMware virtual disk",
+      "category": "archive",
+      "extensions": [
+        "vmdk"
+      ],
+      "path": "icons/vmdk.svg",
+      "color": "#008BF5"
+    },
+    {
+      "id": "js",
+      "label": "JS",
+      "name": "JavaScript source",
+      "category": "code",
+      "extensions": [
+        "js",
+        "mjs",
+        "cjs"
+      ],
+      "path": "icons/js.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "jsx",
+      "label": "JSX",
+      "name": "JSX source",
+      "category": "code",
+      "extensions": [
+        "jsx"
+      ],
+      "path": "icons/jsx.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "ts",
+      "label": "TS",
+      "name": "TypeScript source",
+      "category": "code",
+      "extensions": [
+        "ts",
+        "mts",
+        "cts"
+      ],
+      "path": "icons/ts.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "tsx",
+      "label": "TSX",
+      "name": "TypeScript JSX source",
+      "category": "code",
+      "extensions": [
+        "tsx"
+      ],
+      "path": "icons/tsx.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "html",
+      "label": "HTML",
+      "name": "HTML page",
+      "category": "code",
+      "extensions": [
+        "html",
+        "htm"
+      ],
+      "path": "icons/html.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "css",
+      "label": "CSS",
+      "name": "CSS stylesheet",
+      "category": "code",
+      "extensions": [
+        "css"
+      ],
+      "path": "icons/css.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "scss",
+      "label": "SCSS",
+      "name": "Sass stylesheet",
+      "category": "code",
+      "extensions": [
+        "scss",
+        "sass"
+      ],
+      "path": "icons/scss.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "py",
+      "label": "PY",
+      "name": "Python source",
+      "category": "code",
+      "extensions": [
+        "py",
+        "pyw"
+      ],
+      "path": "icons/py.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "ipynb",
+      "label": "IPYNB",
+      "name": "Jupyter notebook",
+      "category": "code",
+      "extensions": [
+        "ipynb"
+      ],
+      "path": "icons/ipynb.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "name": "C source",
+      "category": "code",
+      "extensions": [
+        "c"
+      ],
+      "path": "icons/c.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "cpp",
+      "label": "C++",
+      "name": "C++ source",
+      "category": "code",
+      "extensions": [
+        "cpp",
+        "cc",
+        "cxx"
+      ],
+      "path": "icons/cpp.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "header",
+      "label": "HDR",
+      "name": "C or C++ header",
+      "category": "code",
+      "extensions": [
+        "h",
+        "hpp",
+        "hh",
+        "hxx"
+      ],
+      "path": "icons/header.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "rust",
+      "label": "RS",
+      "name": "Rust source",
+      "category": "code",
+      "extensions": [
+        "rs"
+      ],
+      "path": "icons/rust.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "go",
+      "label": "GO",
+      "name": "Go source",
+      "category": "code",
+      "extensions": [
+        "go"
+      ],
+      "path": "icons/go.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "java",
+      "label": "JAVA",
+      "name": "Java source",
+      "category": "code",
+      "extensions": [
+        "java"
+      ],
+      "path": "icons/java.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "cs",
+      "label": "C#",
+      "name": "C# source",
+      "category": "code",
+      "extensions": [
+        "cs"
+      ],
+      "path": "icons/cs.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "sh",
+      "label": "SH",
+      "name": "Shell script",
+      "category": "code",
+      "extensions": [
+        "sh",
+        "bash",
+        "zsh",
+        "fish"
+      ],
+      "path": "icons/sh.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "ps1",
+      "label": "PS1",
+      "name": "PowerShell script",
+      "category": "code",
+      "extensions": [
+        "ps1",
+        "psm1"
+      ],
+      "path": "icons/ps1.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "bat",
+      "label": "BAT",
+      "name": "Windows batch script",
+      "category": "code",
+      "extensions": [
+        "bat",
+        "cmd"
+      ],
+      "path": "icons/bat.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "toml",
+      "label": "TOML",
+      "name": "TOML configuration",
+      "category": "code",
+      "extensions": [
+        "toml"
+      ],
+      "path": "icons/toml.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "ini",
+      "label": "INI",
+      "name": "INI configuration",
+      "category": "code",
+      "extensions": [
+        "ini",
+        "cfg",
+        "conf"
+      ],
+      "path": "icons/ini.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "env",
+      "label": "ENV",
+      "name": "Environment configuration",
+      "category": "code",
+      "extensions": [
+        "env"
+      ],
+      "path": "icons/env.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "source-map",
+      "label": "MAP",
+      "name": "Source map",
+      "category": "code",
+      "extensions": [
+        "js.map",
+        "css.map"
+      ],
+      "path": "icons/source-map.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "patch",
+      "label": "PATCH",
+      "name": "Patch or diff",
+      "category": "code",
+      "extensions": [
+        "patch",
+        "diff"
+      ],
+      "path": "icons/patch.svg",
+      "color": "#4A59A1"
+    },
+    {
+      "id": "makefile",
+      "label": "MAKE",
+      "name": "Makefile",
+      "category": "code",
+      "extensions": [],
+      "path": "icons/makefile.svg",
+      "color": "#4A59A1",
+      "role": true
+    },
+    {
+      "id": "dockerfile",
+      "label": "DOCKER",
+      "name": "Dockerfile",
+      "category": "code",
+      "extensions": [],
+      "path": "icons/dockerfile.svg",
+      "color": "#4A59A1",
+      "role": true
+    },
+    {
+      "id": "bin",
+      "label": "BIN",
+      "name": "Binary file",
+      "category": "binary",
+      "extensions": [
+        "bin"
+      ],
+      "path": "icons/bin.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "hex",
+      "label": "HEX",
+      "name": "Intel HEX firmware",
+      "category": "binary",
+      "extensions": [
+        "hex",
+        "ihex"
+      ],
+      "path": "icons/hex.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "uf2",
+      "label": "UF2",
+      "name": "USB Flashing Format firmware",
+      "category": "binary",
+      "extensions": [
+        "uf2"
+      ],
+      "path": "icons/uf2.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "srec",
+      "label": "SREC",
+      "name": "Motorola S-record firmware",
+      "category": "binary",
+      "extensions": [
+        "srec",
+        "s19",
+        "s28",
+        "s37",
+        "mot"
+      ],
+      "path": "icons/srec.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "elf",
+      "label": "ELF",
+      "name": "ELF binary",
+      "category": "binary",
+      "extensions": [
+        "elf",
+        "axf"
+      ],
+      "path": "icons/elf.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "map",
+      "label": "MAP",
+      "name": "Linker map",
+      "category": "binary",
+      "extensions": [
+        "map"
+      ],
+      "path": "icons/map.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "wasm",
+      "label": "WASM",
+      "name": "WebAssembly binary",
+      "category": "binary",
+      "extensions": [
+        "wasm"
+      ],
+      "path": "icons/wasm.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "exe",
+      "label": "EXE",
+      "name": "Windows executable",
+      "category": "binary",
+      "extensions": [
+        "exe"
+      ],
+      "path": "icons/exe.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "msi",
+      "label": "MSI",
+      "name": "Windows Installer package",
+      "category": "binary",
+      "extensions": [
+        "msi"
+      ],
+      "path": "icons/msi.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "app",
+      "label": "APP",
+      "name": "macOS application bundle",
+      "category": "binary",
+      "extensions": [
+        "app"
+      ],
+      "path": "icons/app.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "pkg",
+      "label": "PKG",
+      "name": "macOS installer package",
+      "category": "binary",
+      "extensions": [
+        "pkg",
+        "mpkg"
+      ],
+      "path": "icons/pkg.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "deb",
+      "label": "DEB",
+      "name": "Debian package",
+      "category": "binary",
+      "extensions": [
+        "deb"
+      ],
+      "path": "icons/deb.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "rpm",
+      "label": "RPM",
+      "name": "RPM package",
+      "category": "binary",
+      "extensions": [
+        "rpm"
+      ],
+      "path": "icons/rpm.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "appimage",
+      "label": "APPIMG",
+      "name": "AppImage application bundle",
+      "category": "binary",
+      "extensions": [
+        "appimage"
+      ],
+      "path": "icons/appimage.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "apk",
+      "label": "APK",
+      "name": "Android package",
+      "category": "binary",
+      "extensions": [
+        "apk"
+      ],
+      "path": "icons/apk.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "aab",
+      "label": "AAB",
+      "name": "Android App Bundle",
+      "category": "binary",
+      "extensions": [
+        "aab"
+      ],
+      "path": "icons/aab.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "ipa",
+      "label": "IPA",
+      "name": "iOS application archive",
+      "category": "binary",
+      "extensions": [
+        "ipa"
+      ],
+      "path": "icons/ipa.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "dll",
+      "label": "DLL",
+      "name": "Windows dynamic library",
+      "category": "binary",
+      "extensions": [
+        "dll"
+      ],
+      "path": "icons/dll.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "so",
+      "label": "SO",
+      "name": "Shared object library",
+      "category": "binary",
+      "extensions": [
+        "so",
+        "dylib"
+      ],
+      "path": "icons/so.svg",
+      "color": "#38647B"
+    },
+    {
+      "id": "pem",
+      "label": "PEM",
+      "name": "PEM-encoded security material",
+      "category": "security",
+      "extensions": [
+        "pem"
+      ],
+      "path": "icons/pem.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "crt",
+      "label": "CRT",
+      "name": "Certificate",
+      "category": "security",
+      "extensions": [
+        "crt",
+        "cer"
+      ],
+      "path": "icons/crt.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "der",
+      "label": "DER",
+      "name": "DER-encoded security material",
+      "category": "security",
+      "extensions": [
+        "der"
+      ],
+      "path": "icons/der.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "pfx",
+      "label": "PFX",
+      "name": "PKCS #12 certificate bundle",
+      "category": "security",
+      "extensions": [
+        "pfx",
+        "p12"
+      ],
+      "path": "icons/pfx.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "csr",
+      "label": "CSR",
+      "name": "Certificate signing request",
+      "category": "security",
+      "extensions": [
+        "csr"
+      ],
+      "path": "icons/csr.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "private-key",
+      "label": "KEY",
+      "name": "Private key",
+      "category": "security",
+      "extensions": [
+        "key"
+      ],
+      "path": "icons/private-key.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "signature",
+      "label": "SIG",
+      "name": "Detached signature",
+      "category": "security",
+      "extensions": [
+        "sig",
+        "asc",
+        "p7s"
+      ],
+      "path": "icons/signature.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "public-key",
+      "label": "PUB",
+      "name": "Public key",
+      "category": "security",
+      "extensions": [
+        "pub"
+      ],
+      "path": "icons/public-key.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "sha256",
+      "label": "SHA256",
+      "name": "SHA-256 checksum",
+      "category": "security",
+      "extensions": [
+        "sha256",
+        "sha256sum"
+      ],
+      "path": "icons/sha256.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "sha512",
+      "label": "SHA512",
+      "name": "SHA-512 checksum",
+      "category": "security",
+      "extensions": [
+        "sha512",
+        "sha512sum"
+      ],
+      "path": "icons/sha512.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "md5",
+      "label": "MD5",
+      "name": "MD5 checksum",
+      "category": "security",
+      "extensions": [
+        "md5",
+        "md5sum"
+      ],
+      "path": "icons/md5.svg",
+      "color": "#586F32"
+    },
+    {
+      "id": "eml",
+      "label": "EML",
+      "name": "Email message",
+      "category": "office",
+      "extensions": [
+        "eml"
+      ],
+      "path": "icons/eml.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "msg",
+      "label": "MSG",
+      "name": "Outlook message",
+      "category": "office",
+      "extensions": [
+        "msg"
+      ],
+      "path": "icons/msg.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "mbox",
+      "label": "MBOX",
+      "name": "Mail archive",
+      "category": "office",
+      "extensions": [
+        "mbox"
+      ],
+      "path": "icons/mbox.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "pst",
+      "label": "PST",
+      "name": "Outlook data file",
+      "category": "office",
+      "extensions": [
+        "pst",
+        "ost"
+      ],
+      "path": "icons/pst.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "ics",
+      "label": "ICS",
+      "name": "iCalendar event",
+      "category": "office",
+      "extensions": [
+        "ics",
+        "ical",
+        "ifb"
+      ],
+      "path": "icons/ics.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "vcf",
+      "label": "VCF",
+      "name": "vCard contact",
+      "category": "office",
+      "extensions": [
+        "vcf",
+        "vcard"
+      ],
+      "path": "icons/vcf.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "otf",
+      "label": "OTF",
+      "name": "OpenType font",
+      "category": "office",
+      "extensions": [
+        "otf"
+      ],
+      "path": "icons/otf.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "ttf",
+      "label": "TTF",
+      "name": "TrueType font",
+      "category": "office",
+      "extensions": [
+        "ttf",
+        "ttc"
+      ],
+      "path": "icons/ttf.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "woff",
+      "label": "WOFF",
+      "name": "Web Open Font Format",
+      "category": "office",
+      "extensions": [
+        "woff"
+      ],
+      "path": "icons/woff.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "woff2",
+      "label": "WOFF2",
+      "name": "Web Open Font Format 2",
+      "category": "office",
+      "extensions": [
+        "woff2"
+      ],
+      "path": "icons/woff2.svg",
+      "color": "#505F73"
+    },
+    {
+      "id": "file",
+      "label": "FILE",
+      "name": "Generic file",
+      "category": "office",
+      "extensions": [],
+      "path": "icons/file.svg",
+      "color": "#505F73"
+    }
+  ],
+  "fallback": "file",
+  "extensionMap": {
+    "3dxml": "3dxml",
+    "3mf": "3mf",
+    "7z": "7z",
+    "aab": "aab",
+    "aac": "aac",
+    "accdb": "accdb",
+    "afdesign": "afd",
+    "afphoto": "afp",
+    "ai": "ai",
+    "aif": "aiff",
+    "aifc": "aiff",
+    "aiff": "aiff",
+    "amf": "amf",
+    "aml": "aml",
+    "amlx": "aml",
+    "ap13": "tia-project",
+    "ap14": "tia-project",
+    "ap15": "tia-project",
+    "ap15_1": "tia-project",
+    "ap16": "tia-project",
+    "ap17": "tia-project",
+    "ap18": "tia-project",
+    "ap19": "tia-project",
+    "ap20": "tia-project",
+    "ap21": "tia-project",
+    "apk": "apk",
+    "app": "app",
+    "appimage": "appimage",
+    "arrow": "arrow",
+    "arw": "camera-raw",
+    "asc": "txt",
+    "asm": "creo-assembly",
+    "ass": "ass",
+    "avi": "avi",
+    "avif": "avif",
+    "avro": "avro",
+    "axf": "elf",
+    "bash": "sh",
+    "bat": "bat",
+    "bin": "bin",
+    "blend": "blend",
+    "blf": "blf",
+    "bmp": "bmp",
+    "bom": "bom",
+    "bpmn": "bpmn",
+    "brd": "brd",
+    "brep": "brep",
+    "brp": "brep",
+    "bz2": "bz2",
+    "c": "c",
+    "cap": "pcap",
+    "catpart": "catpart",
+    "catproduct": "catproduct",
+    "cc": "cpp",
+    "cdf": "netcdf",
+    "cer": "crt",
+    "cfg": "ini",
+    "cjs": "js",
+    "cmd": "bat",
+    "conf": "ini",
+    "cpp": "cpp",
+    "cr2": "camera-raw",
+    "cr3": "camera-raw",
+    "crt": "crt",
+    "cs": "cs",
+    "csr": "csr",
+    "css": "css",
+    "css.map": "source-map",
+    "csv": "csv",
+    "cts": "ts",
+    "cxx": "cpp",
+    "d356": "ipc-d-356",
+    "dae": "dae",
+    "db": "db",
+    "db3": "sqlite",
+    "deb": "deb",
+    "der": "der",
+    "dft": "dft",
+    "dib": "bmp",
+    "diff": "patch",
+    "dll": "dll",
+    "dmg": "dmg",
+    "dng": "dng",
+    "doc": "doc",
+    "docm": "docm",
+    "docx": "docx",
+    "drawio": "drawio",
+    "drl": "excellon",
+    "dwg": "dwg",
+    "dxf": "dxf",
+    "dylib": "so",
+    "e57": "e57",
+    "eds": "eds",
+    "elf": "elf",
+    "elk": "elk",
+    "elp": "elp",
+    "emf": "emf",
+    "eml": "eml",
+    "env": "env",
+    "epl": "epl",
+    "eps": "eps",
+    "epub": "epub",
+    "exe": "exe",
+    "f3d": "f3d",
+    "f3z": "f3z",
+    "fbx": "fbx",
+    "fcstd": "fcstd",
+    "feather": "arrow",
+    "fish": "sh",
+    "flac": "flac",
+    "flv": "flv",
+    "g1": "gerber",
+    "g2": "gerber",
+    "gbl": "gerber",
+    "gbo": "gerber",
+    "gbr": "gerber",
+    "gbs": "gerber",
+    "gco": "gcode",
+    "gcode": "gcode",
+    "geojson": "geojson",
+    "ger": "gerber",
+    "gif": "gif",
+    "gko": "gerber",
+    "gl2": "plt",
+    "glb": "glb",
+    "gltf": "gltf",
+    "gm1": "gerber",
+    "gml": "gerber",
+    "go": "go",
+    "gpkg": "gpkg",
+    "gsd": "gsd",
+    "gsdx": "gsdx",
+    "gtl": "gerber",
+    "gto": "gerber",
+    "gts": "gerber",
+    "gz": "gz",
+    "h": "header",
+    "h5": "hdf5",
+    "hdf5": "hdf5",
+    "he5": "hdf5",
+    "heic": "heic",
+    "heif": "heic",
+    "hex": "hex",
+    "hh": "header",
+    "hpgl": "plt",
+    "hpp": "header",
+    "htm": "html",
+    "html": "html",
+    "hxx": "header",
+    "iam": "iam",
+    "ical": "ics",
+    "ico": "ico",
+    "ics": "ics",
+    "idml": "indd",
+    "idw": "idw",
+    "ifb": "ics",
+    "ifc": "ifc",
+    "iges": "iges",
+    "igs": "iges",
+    "ihex": "hex",
+    "img": "img",
+    "indd": "indd",
+    "ini": "ini",
+    "ipa": "ipa",
+    "ipc": "ipc-d-356",
+    "ipt": "ipt",
+    "ipynb": "ipynb",
+    "isf": "wfm",
+    "iso": "iso",
+    "java": "java",
+    "jfif": "jpeg",
+    "jpe": "jpeg",
+    "jpeg": "jpeg",
+    "jpg": "jpeg",
+    "js": "js",
+    "js.map": "source-map",
+    "json": "json",
+    "jsonl": "jsonl",
+    "jsx": "jsx",
+    "jt": "jt",
+    "kicad_mod": "kicad-mod",
+    "kicad_pcb": "kicad-pcb",
+    "kicad_pro": "kicad-pro",
+    "kicad_sch": "kicad-sch",
+    "kicad_sym": "kicad-sym",
+    "kml": "kml",
+    "kmz": "kmz",
+    "las": "las",
+    "laz": "laz",
+    "log": "log",
+    "ltx": "tex",
+    "m1v": "mpeg",
+    "m2t": "mpeg-ts",
+    "m2ts": "avchd",
+    "m2v": "mpeg",
+    "m4a": "m4a",
+    "m4b": "m4a",
+    "m4v": "m4v",
+    "map": "map",
+    "markdown": "md",
+    "mat": "mat",
+    "mbox": "mbox",
+    "md": "md",
+    "md5": "md5",
+    "md5sum": "md5",
+    "mdb": "mdb",
+    "mdown": "md",
+    "mf4": "mf4",
+    "mid": "mid",
+    "midi": "mid",
+    "mjs": "js",
+    "mkv": "mkv",
+    "mot": "srec",
+    "mov": "mov",
+    "mp3": "mp3",
+    "mp4": "mp4",
+    "mpe": "mpeg",
+    "mpeg": "mpeg",
+    "mpg": "mpeg",
+    "mpkg": "pkg",
+    "mpp": "mpp",
+    "msg": "msg",
+    "msi": "msi",
+    "mtl": "mtl",
+    "mts": "ts",
+    "mxf": "mxf",
+    "nc4": "netcdf",
+    "ncd": "excellon",
+    "ndjson": "jsonl",
+    "nef": "camera-raw",
+    "netcdf": "netcdf",
+    "nodeset.xml": "ua-nodeset",
+    "nodeset2.xml": "ua-nodeset",
+    "npy": "npy",
+    "npz": "npz",
+    "numbers": "numbers",
+    "obj": "obj",
+    "odp": "odp",
+    "ods": "ods",
+    "odt": "odt",
+    "off": "off",
+    "oga": "ogg",
+    "ogg": "ogg",
+    "opus": "opus",
+    "orf": "camera-raw",
+    "ost": "pst",
+    "otf": "otf",
+    "oxps": "xps",
+    "p12": "pfx",
+    "p7s": "signature",
+    "pages": "pages",
+    "parquet": "parquet",
+    "patch": "patch",
+    "pcap": "pcap",
+    "pcapng": "pcapng",
+    "pcbdoc": "pcbdoc",
+    "pcblib": "pcblib",
+    "pcd": "pcd",
+    "pdf": "pdf",
+    "pem": "pem",
+    "pfx": "pfx",
+    "pkg": "pkg",
+    "plcproj": "plcproj",
+    "plt": "plt",
+    "ply": "ply",
+    "png": "png",
+    "pos": "pos",
+    "ppt": "ppt",
+    "pptm": "pptm",
+    "pptx": "pptx",
+    "prjpcb": "prjpcb",
+    "prt": "creo-part",
+    "ps1": "ps1",
+    "psb": "psd",
+    "psd": "psd",
+    "psm1": "ps1",
+    "pst": "pst",
+    "pub": "public-key",
+    "py": "py",
+    "pyw": "py",
+    "qt": "mov",
+    "raf": "camera-raw",
+    "rar": "rar",
+    "raw": "camera-raw",
+    "rpm": "rpm",
+    "rs": "rust",
+    "rst": "rst",
+    "rtf": "rtf",
+    "rvt": "rvt",
+    "rw2": "camera-raw",
+    "s19": "srec",
+    "s28": "srec",
+    "s37": "srec",
+    "s3db": "sqlite",
+    "sab": "sab",
+    "sass": "scss",
+    "sat": "sat",
+    "sch": "sch",
+    "schdoc": "schdoc",
+    "schlib": "schlib",
+    "scss": "scss",
+    "sh": "sh",
+    "sha256": "sha256",
+    "sha256sum": "sha256",
+    "sha512": "sha512",
+    "sha512sum": "sha512",
+    "shp": "shp",
+    "sig": "signature",
+    "skp": "skp",
+    "sldasm": "sldasm",
+    "slddrw": "slddrw",
+    "sldprt": "sldprt",
+    "so": "so",
+    "spef": "spef",
+    "sql": "sql",
+    "sqlite": "sqlite",
+    "sqlite3": "sqlite",
+    "srec": "srec",
+    "srt": "srt",
+    "ssa": "ass",
+    "st": "st",
+    "step": "step",
+    "stl": "stl",
+    "stp": "step",
+    "svg": "svg",
+    "svgz": "svg",
+    "tab": "tsv",
+    "tap": "gcode",
+    "tar": "tar",
+    "tar.bz2": "tbz2",
+    "tar.gz": "tgz",
+    "tar.xz": "txz",
+    "tar.zst": "tzst",
+    "tbz": "tbz2",
+    "tbz2": "tbz2",
+    "tcpou": "tcpou",
+    "tdms": "tdms",
+    "tex": "tex",
+    "text": "txt",
+    "tgz": "tgz",
+    "tif": "tiff",
+    "tiff": "tiff",
+    "tmc": "tmc",
+    "toml": "toml",
+    "trc": "trc",
+    "ts": "ts",
+    "tsproj": "tsproj",
+    "tsv": "tsv",
+    "tsx": "tsx",
+    "ttc": "ttf",
+    "ttf": "ttf",
+    "txt": "txt",
+    "txz": "txz",
+    "tzst": "tzst",
+    "uf2": "uf2",
+    "usd": "usd",
+    "usda": "usd",
+    "usdc": "usd",
+    "usdz": "usdz",
+    "vcard": "vcf",
+    "vcd": "vcd",
+    "vcf": "vcf",
+    "vhd": "vhd",
+    "vhdx": "vhd",
+    "vmdk": "vmdk",
+    "vrml": "wrl",
+    "vsd": "vsdx",
+    "vsdm": "vsdm",
+    "vsdx": "vsdx",
+    "vtt": "vtt",
+    "wasm": "wasm",
+    "wav": "wav",
+    "wave": "wav",
+    "webm": "webm",
+    "webp": "webp",
+    "wfm": "wfm",
+    "wma": "wma",
+    "wmf": "wmf",
+    "wmv": "wmv",
+    "woff": "woff",
+    "woff2": "woff2",
+    "wrl": "wrl",
+    "x3d": "x3d",
+    "x3db": "x3d",
+    "x3dv": "x3d",
+    "x_b": "parasolid-binary",
+    "x_t": "parasolid-text",
+    "xcf": "xcf",
+    "xer": "xer",
+    "xls": "xls",
+    "xlsb": "xlsb",
+    "xlsm": "xlsm",
+    "xlsx": "xlsx",
+    "xml": "xml",
+    "xmt_bin": "parasolid-binary",
+    "xmt_txt": "parasolid-text",
+    "xnc": "excellon",
+    "xpr": "xpr",
+    "xps": "xps",
+    "xsd": "xsd",
+    "xy": "xy",
+    "xz": "xz",
+    "yaml": "yaml",
+    "yml": "yaml",
+    "zap13": "tia-archive",
+    "zap14": "tia-archive",
+    "zap15": "tia-archive",
+    "zap15_1": "tia-archive",
+    "zap16": "tia-archive",
+    "zap17": "tia-archive",
+    "zap18": "tia-archive",
+    "zap19": "tia-archive",
+    "zap20": "tia-archive",
+    "zap21": "tia-archive",
+    "zip": "zip",
+    "zpl": "zpl",
+    "zsh": "sh",
+    "zst": "zst",
+    "zw1": "zw1"
+  },
+  "ambiguousExtensions": {
+    "asc": {
+      "icons": [
+        "txt",
+        "signature"
+      ],
+      "default": "txt"
+    },
+    "ts": {
+      "icons": [
+        "mpeg-ts",
+        "ts"
+      ],
+      "default": "ts"
+    },
+    "mts": {
+      "icons": [
+        "avchd",
+        "ts"
+      ],
+      "default": "ts"
+    },
+    "key": {
+      "icons": [
+        "keynote",
+        "private-key"
+      ],
+      "default": null
+    },
+    "mdf": {
+      "icons": [
+        "sql-server-mdf",
+        "mdf"
+      ],
+      "default": null
+    },
+    "nc": {
+      "icons": [
+        "gcode",
+        "netcdf"
+      ],
+      "default": null
+    }
+  },
+  "filenameMap": {
+    "dockerfile": "dockerfile",
+    "makefile": "makefile",
+    ".env": "env"
+  }
+}

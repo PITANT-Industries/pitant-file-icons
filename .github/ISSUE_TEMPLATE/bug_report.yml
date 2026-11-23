@@ -1,0 +1,19 @@
+name: Report a bug
+description: Report an incorrect icon, filename match, package issue, or catalog problem.
+title: 'Bug report for '
+labels: ['bug']
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version and environment
+      placeholder: v0.1.0, React 19, Firefox, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include a dummy filename or icon ID and explain the result you expected.
+    validations:
+      required: true

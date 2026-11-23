@@ -1,0 +1,24 @@
+name: Request a file icon
+description: Suggest a format or filename extension the library should cover.
+title: 'Icon request for '
+labels: ['enhancement']
+body:
+  - type: input
+    id: format
+    attributes:
+      label: File format
+      placeholder: Example format name and extension
+    validations:
+      required: true
+  - type: input
+    id: reference
+    attributes:
+      label: Format documentation
+      placeholder: URL for the specification or vendor documentation
+  - type: textarea
+    id: context
+    attributes:
+      label: Example filenames and use case
+      description: Use dummy filenames and mention any known extension collisions.
+    validations:
+      required: true

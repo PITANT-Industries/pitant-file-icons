@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse PITANT's open-source SVG icons for CAD, electronics, industrial data, media, and everyday file formats.">
+  <title>PITANT File Format Icons</title>
+  <link rel="icon" href="icons/file.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="catalog.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#format-search">Skip to format search</a>
+  <header class="site-header">
+    <div class="wrap header-content">
+      <a class="wordmark" href="./" aria-label="PITANT file format icons home">PITANT</a>
+      <nav aria-label="Project links">
+        <a href="https://github.com/PITANT-Industries/pitant-file-icons">GitHub</a>
+        <a href="https://github.com/PITANT-Industries/pitant-file-icons/blob/main/LICENSE">License</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap intro" aria-labelledby="site-title">
+      <div>
+        <h1 id="site-title">File format<br> icons</h1>
+        <p id="intro-copy">Open-source SVGs for engineering, industrial data, media, and everyday documents.</p>
+        <div class="intro-actions">
+          <a class="button button-primary" href="#catalog">Browse icons</a>
+          <a class="button" href="https://github.com/PITANT-Industries/pitant-file-icons/releases/latest">Download release</a>
+        </div>
+      </div>
+      <div class="showcase" aria-label="Featured formats">
+        <a class="sample" href="icons/pdf.svg"><img src="icons/pdf.svg" alt="" width="92" height="92"><span>PDF</span></a>
+        <a class="sample" href="icons/step.svg"><img src="icons/step.svg" alt="" width="92" height="92"><span>STEP</span></a>
+        <a class="sample" href="icons/zip.svg"><img src="icons/zip.svg" alt="" width="92" height="92"><span>ZIP</span></a>
+        <a class="sample" href="icons/iso.svg"><img src="icons/iso.svg" alt="" width="92" height="92"><span>ISO</span></a>
+        <a class="sample" href="icons/csv.svg"><img src="icons/csv.svg" alt="" width="92" height="92"><span>CSV</span></a>
+        <a class="sample" href="icons/mp4.svg"><img src="icons/mp4.svg" alt="" width="92" height="92"><span>MP4</span></a>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+      <div class="wrap catalog-content">
+        <div class="catalog-heading">
+          <h2 id="catalog-title">Icon catalog</h2>
+          <a class="manifest-link" href="formats.json">Format manifest <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="toolbar">
+          <div class="search-field">
+            <label for="format-search">Find a format</label>
+            <span class="search-input">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.75"/><path d="m15 15 4.5 4.5"/></svg>
+              <input id="format-search" type="search" placeholder="STEP, .mp4, or archive.tar.gz" autocomplete="off" spellcheck="false">
+            </span>
+          </div>
+          <label class="select-control mobile-category" for="category-select">Category
+            <select id="category-select"></select>
+          </label>
+          <label class="select-control" for="size-select">Preview size
+            <select id="size-select">
+              <option value="32">32 px</option>
+              <option value="64" selected>64 px</option>
+              <option value="96">96 px</option>
+            </select>
+          </label>
+          <label class="select-control" for="background-select">Background
+            <select id="background-select">
+              <option value="light" selected>Light</option>
+              <option value="dark">Dark</option>
+            </select>
+          </label>
+        </div>
+        <div class="catalog-layout">
+          <aside aria-labelledby="categories-heading">
+            <h3 id="categories-heading">Categories</h3>
+            <div class="category-buttons" id="category-buttons"></div>
+          </aside>
+          <div class="results">
+            <p class="result-count" id="result-count" role="status"></p>
+            <div id="format-results"></div>
+            <noscript><p>Enable JavaScript to search the catalog. The individual SVGs are available through the project repository.</p></noscript>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-content">
+      <span>PITANT File Format Icons</span>
+      <a href="https://github.com/PITANT-Industries/pitant-file-icons/issues">Report an issue</a>
+    </div>
+  </footer>
+
+  <dialog id="icon-dialog" aria-labelledby="icon-dialog-title">
+    <div class="dialog-content">
+      <form method="dialog" class="dialog-close"><button type="submit" aria-label="Close icon details" autofocus>×</button></form>
+      <div class="preview dialog-preview"><img id="detail-image" alt="" width="96" height="96"></div>
+      <div class="dialog-details">
+        <p class="detail-category" id="detail-category"></p>
+        <h2 id="icon-dialog-title"></h2>
+        <p class="detail-suffixes" id="detail-suffixes"></p>
+        <div class="detail-actions">
+          <a class="button button-primary" id="download-svg" download>Download SVG</a>
+          <a class="button" id="open-svg" target="_blank" rel="noopener">Open SVG</a>
+          <button class="button" type="button" id="copy-svg">Copy SVG</button>
+        </div>
+        <p class="copy-status" id="copy-status" role="status"></p>
+        <label id="copy-source" class="copy-source" hidden>SVG source
+          <textarea rows="4" readonly></textarea>
+        </label>
+      </div>
+    </div>
+  </dialog>
+
+  <template id="format-template">
+    <li>
+      <button class="format-card" type="button">
+        <span class="preview"><img alt="" width="64" height="64" loading="lazy" decoding="async"></span>
+        <span class="format-name"></span>
+        <span class="format-extensions"></span>
+      </button>
+    </li>
+  </template>
+  <script id="catalog-data" type="application/json">__CATALOG_JSON__</script>
+</body>
+</html>
