@@ -4,7 +4,7 @@ File-format icons for attachment rows, file browsers, engineering handoffs, and 
 
 ![Eight PITANT file format icons including PDF, ISO, ZIP, and STEP](docs/preview.svg)
 
-[Browse the icon catalog](https://pitant-industries.github.io/pitant-file-icons/) · [Download the latest release](https://github.com/PITANT-Industries/pitant-file-icons/releases/latest) · [MIT License](LICENSE)
+[Browse the icon catalog](https://file.icons.pitant.de/) · [Download the latest release](https://github.com/PITANT-Industries/pitant-file-icons/releases/latest) · [MIT License](LICENSE)
 
 ## Choose a format for your project
 
